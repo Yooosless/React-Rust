@@ -1,0 +1,40 @@
+.footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 98%;
+    font-style: italic;
+    font-size: 24px;
+    border-radius: 20px;
+}
+.author {
+    position: absolute;
+    bottom: -10px;
+    right: 70px;
+    font-size: 18px; 
+}
+
+/*
+
+.author {
+    display: inline-block; 
+    padding: 5px 10px; 
+    margin-left: 10px; 
+    border-radius: 10px; 
+    background: linear-gradient(135deg, rgba(145, 142, 184, 0.7), rgba(184, 128, 128, 0.9)); 
+    background-size: 200% auto;
+    animation: shine 3s infinite linear;
+    
+
+}
+
+@keyframes shine {
+    0% {
+        background-position: 100% 0; 
+    }
+    100% {
+        background-position: -100% 0;
+    }
+}
+*/

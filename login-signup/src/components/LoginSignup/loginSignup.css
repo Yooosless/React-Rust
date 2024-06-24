@@ -1,0 +1,122 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 80px;
+    background: white;
+    padding-bottom: 30px;
+    width: 700px;
+    height: 600px;
+    }
+    
+    .header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 9px;
+        width: 100%;
+        margin-top: 30px;
+    }
+    
+    .text{
+        color: #465656;
+        font-weight: 700;
+        font-size: 48px;
+    }
+    
+    .underline{
+        width: 100px;
+        height: 6px;
+        background-color: rgb(154, 154, 235);
+        border-radius: 10px;
+    }
+    
+    .inputs{
+        margin-top: 55px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+    
+    .input{
+        display: flex;
+        align-items: center;
+        margin: auto;
+        width: 480px;
+        height: 80px;
+        background: #dadddd;
+        border-radius: 6px;
+    }
+    
+    .input img{
+        margin: 0px 30px;
+    }
+    
+    .input input{
+        height: 50px;
+        width: 400px;
+        background: transparent;
+        border: none;
+        outline: none;
+        color: #535757;
+        font-size: 19px;
+    }
+    
+    
+    .lost-password{
+        font-size: 20px;
+        padding-left: 110px;
+        margin-top: 10px;
+        color: #7c7c7c;
+    }
+    
+    .lost-password span{
+        color: #0c5454;
+        cursor: pointer;
+    }
+    
+    .submit-container{
+        display: flex;
+        gap: 30px;
+        margin: 30px auto;
+    }
+    .submit{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 225px;
+        height: 60px;
+        color: white;
+        background: #115fe6;
+        border-radius: 20px;
+        cursor: pointer;
+        font-size: 25px;
+        font-weight: 700;
+    }
+    
+    .toggle{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 225px;
+        height: 60px;
+        color: white;
+        background: #115fe6;
+        border-radius: 20px;
+        cursor: pointer;
+        font-size: 25px;
+        font-weight: 700;
+    }
+    
+    .gray{
+        background: #EAEAEA;
+        color: #676767;
+    }
+
+
+    .error-message{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: xx-large;
+        text-align: center;
+        color: red;
+    }
